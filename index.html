@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FloraVie - Магазин букетов</title>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__container">
+            <div class="header__logo">
+                <img src="./images/logo.svg" alt="FloraVie logo" class="header__logo-icon">
+                <div class="header__logo-text">
+                    <span class="header__brand">FloraVie</span>
+                    <span class="header__tagline">цветы, которые говорят о чувствах</span>
+                </div>
+            </div>
+            <nav class="header__nav">
+                <a href="#catalog" class="header__link">Каталог</a>
+                <a href="#about" class="header__link">О компании</a>
+                <a href="#delivery" class="header__link">Доставка и оплата</a>
+                <a href="#reviews" class="header__link">Отзывы</a>
+                <a href="#contacts" class="header__link">Контакты</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="promo">
+        <div class="promo__background">
+            <h1 class="promo__title">Магазин красивых цветочных букетов</h1>
+            <p class="promo__subtitle">
+                Сделайте сюрприз своим друзьям и близким – закажите букет цветов с доставкой
+            </p>
+            <a href="#catalog" class="promo__button" id="scrollButton">Подобрать букет</a>
+        </div>
+    </section>
+
+    <section class="offer">
+        <h2 class="offer__title">Создаем индивидуальные букеты</h2>
+        <p class="offer__subtitle">
+            для свадеб и мероприятий, день рождения и юбилеев
+        </p>
+        <div class="offer__content">
+            <div class="offer__image">
+                <img src="./images/букет1.png" alt="Букет роз">
+            </div>
+            <div class="offer__details">
+                <h3 class="offer__special">Специальное предложение!</h3>
+                <p class="offer__text">
+                    Закажите шикарный букет из 19 пышных роз FloraVie и получите в подарок изысканный набор премиального
+                    шоколада ручной работы! Представьте: ароматные, бархатистые лепестки роз, раскрывающие свою красоту,
+                    и тающий во рту шоколад, пробуждающий чувства. Это идеальное сочетание, которое растопит любое
+                    сердце. Выберите цвет роз – от классической красной до нежной розовой – и дополните этот роскошный
+                    подарок неповторимыми эмоциями. Закажите прямо сейчас и окунитесь в мир чувств вместе с FloraVie!
+                </p>
+                <p class="offer__price">от 3000 руб.</p>
+                <a href="#catalog" class="offer__button">Выбрать букет</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="catalog" id="catalog">
+    <div class="catalog__container">
+        <h2 class="catalog__title">Свежие и красивые цветочные букеты</h2>
+        <p class="catalog__subtitle">
+            Доставляем многочисленные цветочные букеты по всей территории России
+        </p>
+
+        <div class="catalog__flex">
+            <div class="catalog__item active">
+                <img src="./images/1.png" alt="Букет из красных роз" class="catalog__image">
+                <h3 class="catalog__name">Букет из красных роз</h3>
+                <p class="catalog__description">
+                    Классический букет алых роз: страсть, элегантность, символ любви,
+                    незабываемый аромат, изысканный подарок.
+                </p>
+                <p class="catalog__price">2500 руб.</p>
+                <button class="catalog__button">Купить</button>
+            </div>
+
+            <div class="catalog__item">
+                <img src="./images/2.png" alt="Букет из белых лилий" class="catalog__image">
+                <h3 class="catalog__name">Букет из белых лилий</h3>
+                <p class="catalog__description">
+                    Нежные белые лилии — символ чистоты, изящества и невинности.
+                    Роскошный букет, наполненный тонким ароматом.
+                </p>
+                <p class="catalog__price">3500 руб.</p>
+                <button class="catalog__button">Купить</button>
+            </div>
+
+            <div class="catalog__item target">
+                <img src="./images/3.png" alt="Букет из тюльпанов" class="catalog__image">
+                <h3 class="catalog__name">Букет из тюльпанов</h3>
+                <p class="catalog__description">
+                    Весенний букет тюльпанов: яркие краски, нежность лепестков, радость
+                    и праздничное настроение в каждом цветке.
+                </p>
+                <p class="catalog__price">2900 руб.</p>
+                <button class="catalog__button">Купить</button>
+            </div>
+
+            <div class="catalog__item">
+                <img src="./images/4.png" alt="Букет из кустовых роз" class="catalog__image">
+                <h3 class="catalog__name">Букет из кустовых роз</h3>
+                <p class="catalog__description">
+                    Пышный букет кустовых роз: множество бутонов, волшебный аромат,
+                    роскошь и красота в каждой детали.
+                </p>
+                <p class="catalog__price">3000 руб.</p>
+                <button class="catalog__button">Купить</button>
+            </div>
+
+            <div class="catalog__item">
+                <img src="./images/5.png" alt="Букет из астр" class="catalog__image">
+                <h3 class="catalog__name">Букет из астр</h3>
+                <p class="catalog__description">
+                    Нежные астры – символ осенней красоты, яркие краски, тонкий аромат,
+                    волшебный букет.
+                </p>
+                <p class="catalog__price">2300 руб.</p>
+                <button class="catalog__button">Купить</button>
+            </div>
+
+            <div class="catalog__item">
+                <img src="./images/6.png" alt="Букет из гипсофил" class="catalog__image">
+                <h3 class="catalog__name">Букет из гипсофил</h3>
+                <p class="catalog__description">
+                    Воздушный букет гипсофил: нежные цветы, идеальное дополнение к любому букету.
+                </p>
+                <p class="catalog__price">4000 руб.</p>
+                <button class="catalog__button">Купить</button>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about__container">
+            <h2 class="about__title">О нашем магазине</h2>
+            <p class="about__intro">
+                <i>FloraVie</i> – это больше, чем просто цветочный магазин; это история любви к красоте и природе,
+                начавшаяся в 2020 году. Зародившись как небольшая семейная мастерская, где с любовью создавались
+                уникальные композиции, FloraVie быстро завоевала сердца ценителей флористического искусства.
+                Основатели, Елизавета и Мария, вносили в каждое творение частичку своей души, используя только самые
+                свежие цветы и оригинальные дизайнерские решения.
+            </p>
+            <div class="about__image">
+                <img src="./images/about.png" alt="Цветы FloraVie">
+            </div>
+            <p class="about__text">
+                С годами FloraVie расширялась, совершенствовалась, и сегодня это успешный бренд с магазинами по всей
+                стране.
+                Мы сохранили семейную атмосферу и бережное отношение к каждому цветку, но добавили современные
+                технологии
+                и широкий ассортимент. Теперь у нас вы найдете не только классические букеты, но и эксклюзивные
+                композиции,
+                живые растения, сувениры и подарки, дополняющие цветочную симфонию. Мы сотрудничаем с лучшими
+                поставщиками,
+                гарантируя высочайшее качество цветов. В FloraVie работает команда опытных флористов, превращающих
+                обычные цветы
+                в настоящие произведения искусства. Мы стремимся дарить радость, создавая незабываемые моменты и украшая
+                жизнь
+                наших клиентов красотой и ароматом цветов. Добро пожаловать в мир FloraVie – мир, где расцветают
+                чувства!
+            </p>
+        </div>
+    </section>
+
+    <section class="advantages">
+        <div class="advantages__container">
+            <h2 class="advantages__title">Почему выбирают именно нас</h2>
+            <p class="advantages__subtitle">
+                Причины, по которым в наш магазин обращаются многочисленные клиенты
+            </p>
+            <div class="advantages__list">
+                <div class="advantages__item">
+                    <div class="advantages__icon icon-hover-effect">
+                        <img src="./images/3.svg" alt="Иконка качества">
+                    </div>
+                    <h3 class="advantages__name">Исключительное качество</h3>
+                    <p class="advantages__description">
+                        Мы используем только самые свежие и высококачественные цветы от проверенных поставщиков,
+                        гарантируя долговечность и яркость букетов.
+                    </p>
+                </div>
+    
+                <div class="advantages__item">
+                    <div class="advantages__icon icon-hover-effect">
+                        <img src="./images/2.svg" alt="Иконка дизайна">
+                    </div>
+                    <h3 class="advantages__name">Уникальные дизайны</h3>
+                    <p class="advantages__description">
+                        Наши опытные флористы создают оригинальные композиции, выходя за рамки стандартных дизайнов
+                        и предлагая неповторимые цветочные решения.
+                    </p>
+                </div>
+    
+                <div class="advantages__item">
+                    <div class="advantages__icon icon-hover-effect">
+                        <img src="./images/1.svg" alt="Иконка доставки">
+                    </div>
+                    <h3 class="advantages__name">Бесплатная доставка</h3>
+                    <p class="advantages__description">
+                        Курьеры нашего магазина доставляют букеты цветов бесплатно по Москве и Московской области от
+                        3000 руб.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="delivery" id="delivery">
+        <div class="delivery__container">
+            <h2 class="delivery__title">Условия доставки и оплаты</h2>
+    
+            <div class="delivery__block">
+                <h3 class="delivery__subtitle">Способы доставки:</h3>
+                <div>
+                    <div class="delivery__item">
+                        <div class="delivery__icon delivery__icon-hoverable">
+                            <img src="./images/heart.svg" alt="Иконка доставки">
+                        </div>
+                        <p class="delivery__description">
+                            Доставка по всей России - через транспортные компании, а также наложенным платежом.
+                            Стоимость доставки через транспортную компанию составляет около 500 руб.,
+                            доставка наложенным платежом 400-2000 руб. в зависимости от размера посылки.
+                        </p>
+                    </div>
+                    <div class="delivery__item">
+                        <div class="delivery__icon delivery__icon-hoverable">
+                            <img src="./images/heart.svg" alt="Иконка самовывоза">
+                        </div>
+                        <p class="delivery__description">
+                            Самовывоз. Самовывоз со склада курьерской службы (срок доставки до пункта
+                            самовывоза составляет 7-14 дней в зависимости от региона).
+                        </p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="delivery__block">
+                <h3 class="delivery__subtitle">Способы оплаты:</h3>
+                <div>
+                    <div class="delivery__item">
+                        <div class="delivery__icon delivery__icon-hoverable">
+                            <img src="./images/star.png" alt="Иконка оплаты">
+                        </div>
+                        <p class="delivery__description">
+                            Наличные при получении – (вы делаете заказ, оставляете контактную информацию,
+                            указываете в пункте Оплата – «Наличными», при этом варианте оплата осуществляется
+                            курьеру при привозе заказа).
+                        </p>
+                    </div>
+                    <div class="delivery__item">
+                        <div class="delivery__icon delivery__icon-hoverable">
+                            <img src="./images/star.png" alt="Иконка наложенного платежа">
+                        </div>
+                        <p class="delivery__description">
+                            Наложенный платёж – это значит, что оплачивать заказ вы будете наличными при
+                            получении в отделении Почты России. Дополнительные комиссии в нашем магазине отсутствуют.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="reviews" id="reviews">
+        <div class="reviews__container">
+            <h2 class="reviews__title">Отзывы наших покупателей</h2>
+            <p class="reviews__subtitle">Что говорят о нашем магазине наши покупатели</p>
+    
+            <div class="reviews__list">
+                <div class="reviews__item">
+                    <img src="./images/vika.png" alt="Виктория Златоуст" class="reviews__image hover-effect">
+                    <div class="reviews__content">
+                        <h3 class="reviews__name">Виктория Златоуст</h3>
+                        <p class="reviews__text">
+                            Этот цветочный магазин – настоящий рай для любителей цветов! Огромный выбор, приветливый персонал,
+                            который всегда готов помочь с выбором букета. Я покупала цветы несколько раз, и каждый раз
+                            оставалась
+                            под впечатлением от качества и красоты композиций. Спасибо за вашу работу!
+                        </p>
+                    </div>
+                </div>
+    
+                <div class="reviews__item">
+                    <img src="./images/anna.png" alt="Анна Венедиктова" class="reviews__image hover-effect">
+                    <div class="reviews__content">
+                        <h3 class="reviews__name">Анна Венедиктова</h3>
+                        <p class="reviews__text">
+                            Заказывала букет лилий на день рождения подруги в цветочном магазине. Осталась очень довольна! Цветы были
+                            невероятно свежие, букет собран профессионально, а доставка порадовала пунктуальностью. Подруга была в восторге
+                            от красоты и аромата лилий! Однозначно рекомендую этот магазин!
+                        </p>
+                    </div>
+                </div>
+    
+                <div class="reviews__item">
+                    <img src="./images/poli.png" alt="Полина Евгеньева" class="reviews__image hover-effect">
+                    <div class="reviews__content">
+                        <h3 class="reviews__name">Полина Евгеньева</h3>
+                        <p class="reviews__text">
+                            Этот цветочный магазин - мое спасение! Несколько раз обращалась к ним за цветами - и на день
+                            рождения, и просто так,
+                            чтобы поднять настроение. Всегда огромный выбор, прекрасные композиции, и цены вполне приемлемые. Персонал очень
+                            доброжелательный и профессиональный, всегда помогает определиться с выбором.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <section class="contacts" id="contacts">
+        <div class="contacts__container">
+            <h2 class="contacts__title">Контакты</h2>
+
+            <div class="contacts__content">
+                <div class="contacts__map">
+                    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ada68ab32bfb4dc7231ffebeab0e1906ff99e7adf07a8a49819a83673095c4b26&amp;source=constructor" width="500" height="250" frameborder="0"></iframe>
+                </div>
+
+                <div class="contacts__info">
+                    <h3 class="contacts__info-title">Контактная информация:</h3>
+                    <ul class="contacts__list">
+                        <li class="contacts__item">г. Москва, Ленинградский проспект, 62</li>
+                        <li class="contacts__item">E-mail: <a href="mailto:de1724rgay.ru@mail.ru" class="contacts__link">de1724rgay.ru@mail.ru</a></li>
+                        <li class="contacts__item">Телефон: 8-800-554-38-90 отдел продаж</li>
+                        <li class="contacts__item">Телефон: 8-800-395-85-46 отдел сбыта</li>
+                        <li class="contacts__item">Контактное лицо: Суржиков К. Д.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="contacts__social">
+                <h3 class="contacts__social-title">Присоединяйтесь к нам в социальных сетях!</h3>
+                <div class="contacts__icons">
+                    <a href="#" class="contacts__icon-link">
+                        <img src="./images/vk.svg" alt="VK" class="contacts__icon">
+                    </a>
+                    <a href="#" class="contacts__icon-link">
+                        <img src="./images/ws.svg" alt="WhatsApp" class="contacts__icon">
+                    </a>
+                    <a href="#" class="contacts__icon-link">
+                        <img src="./images/tg.svg" alt="Telegram" class="contacts__icon">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__brand">
+                <img src="./images/logo.svg" alt="FloraVie" class="footer__logo">
+                <div>
+                    <span class="footer__title">FloraVie</span>
+                    <div class="footer__slogan">цветы, которые говорят о чувствах</div>
+                </div>
+            </div>
+
+            <div class="footer__info">
+                    <p class="footer__company">ООО «СтройГлав», 658945, г.Москва,<br>
+                        Лиственничная аллея, офис 1</p>
+                    <a href="#" class="footer__link">Политика конфиденциальности</a>
+                </div>
+                        
+            <div class="footer__contact">
+                <div class="footer__phone">
+                    <img src="./images/phone.svg" alt="Телефон" class="footer__icon">
+                    <a href="tel:8-899-555-97-64" class="footer__number">8-899-555-97-64</a>
+                 </div>
+                    <div class="footer__note">Звонок по России бесплатный</div>
+                </div>
+            </div>
+        </footer>
+        <!-- Модальное окно для формы заказа -->
+<div class="modal" id="orderModal">
+    <div class="modal__content">
+        <span class="modal__close" id="modalClose">&times;</span>
+        <h2>Оформление заказа</h2>
+        <form id="orderForm">
+            <label for="name">Имя:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="phone">Телефон:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="address">Адрес доставки:</label>
+            <input type="text" id="address" name="address" required>
+
+            <button type="submit" id="close">Отправить</button>
+        </form>
+    </div>
+</div>
+
+    </body>
+    <script>
+function smoothScroll(targetId) {
+    document.getElementById(targetId).scrollIntoView({
+        behavior: 'smooth' 
+    });
+}
+
+
+document.querySelector('.header__nav a[href="#catalog"]').addEventListener('click', function (event) {
+    event.preventDefault(); 
+    smoothScroll('catalog');
+});
+
+document.querySelector('.header__nav a[href="#about"]').addEventListener('click', function (event) {
+    event.preventDefault();
+    smoothScroll('about');
+});
+
+document.querySelector('.header__nav a[href="#delivery"]').addEventListener('click', function (event) {
+    event.preventDefault();
+    smoothScroll('delivery');
+});
+
+document.querySelector('.header__nav a[href="#reviews"]').addEventListener('click', function (event) {
+    event.preventDefault();
+    smoothScroll('reviews');
+});
+
+document.querySelector('.header__nav a[href="#contacts"]').addEventListener('click', function (event) {
+    event.preventDefault();
+    smoothScroll('contacts');
+});
+
+
+document.getElementById('scrollButton').addEventListener('click', function () {
+    document.querySelector('.target').scrollIntoView({
+        behavior: 'smooth' 
+    });
+});
+
+// Получаем элементы модального окна и кнопки
+let modal = document.getElementById("orderModal");
+let btns = document.querySelectorAll(".catalog__button");
+let span = document.getElementById("modalClose");
+
+// Функция для открытия модального окна
+btns.forEach(function(btns) {
+    btns.onclick = function() {
+        modal.style.display = "block";
+    }
+});
+
+// Функция для закрытия модального окна
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// Закрыть модальное окно, если пользователь щелкнет вне его
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+    </script> 
+</html>
+
